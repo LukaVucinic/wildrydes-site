@@ -14,7 +14,8 @@ html,
 button,
 input,
 select,
-textarea {
+textarea,
+.home-button {
     color: #222;
 }
 
@@ -242,6 +243,35 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #dddddd;
     color: #141414a2;
+}
+
+
+.home-button {
+  width: 200px;
+  background-color: white;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px auto 30px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  display: block;
+
+  font-family: "fairplex-wide";
+  font-size: 24px;
+  opacity: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #dddddd;
+  color: #141414a2;
 }
 
 
